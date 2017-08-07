@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#content li:hover{
+    background-color: orange;
+}
+.loadmore{
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.loadmore a{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #50bfff;
+    
+}
+.loadmore a.active{
+   opacity: 0.8
+}
+.loadmore a:hover{
+    background-color: #50bfff;
+    opacity: 0.8
+}
+#content{
+    transition: 1s;
+}
+#content li{
+    list-style:none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    cursor:pointer;
+}
