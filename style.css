@@ -17,17 +17,26 @@ a{
 }
 .loadmore a{
     display: inline-block;
-    padding: 10px 20px;
+    line-height: 42px;
+    padding: 0 12px;
     border-radius: 5px;
-    background-color: #50bfff;
+    border:1px solid #50bfff;
+    background-color: #fff;
     
 }
 .loadmore a.active{
-   opacity: 0.8
+   
 }
 .loadmore a:hover{
-    background-color: #50bfff;
-    opacity: 0.8
+    -background-color: #50bfff;
+    
+}
+#loadMore img{
+    display: inline-block;
+    width: 40px;
+    padding: 0 12px;
+    line-height: 42px;
+    vertical-align: top;
 }
 #content{
     transition: 1s;
